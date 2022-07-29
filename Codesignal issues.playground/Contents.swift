@@ -916,8 +916,84 @@ func solution(inputString: String) -> Bool {
 
 
 
+// imageHidden
+//func solution(image: [[Int]]){
+//    var imagearr = image
+//    var row = imagearr.count //3
+//    var column = imagearr[0].count// 4
+//    var sum = 0
+//    var arr = [Int]()
+//    var k = 0
+////    [[36,0,18,9],
+////     [27,54,9,0],
+////     [81,63,72,45]]
+//    if row == column{
+//        for c in 0 ..< column{//4 = 3
+//            for r in 0 ..< row{//3 = 2
+//                if k<=9
+//                    && c<column-2//2
+//                    && r<row-2//1
+//                {
+//                    for i in c ... c+2{
+//                        for j in r ... r+2{
+//                                sum = sum + imagearr[i][j]
+//                                k = k + 1
+//                                print(sum)
+//                            }
+//                        }
+//                            arr.append(sum/9)
+//                            sum = 0
+//                            k = 0
+//                }
+//            }
+//        }
+//
+//    }
+//     else{
+//        for c in 0 ..< column{//4 = 3
+//            for r in 0 ..< row{//3 = 2
+//                if k<=9
+//                    && c<column-3//2
+//                    && r<=row-2//1
+//                {
+//                    for i in c ... c+2{
+//                        for j in r ... r+2{
+//                                sum = sum + imagearr[i][j]
+//                                k = k + 1
+////                                print(sum)
+//                            }
+//                        }
+//                            arr.append(sum/9)
+//                            sum = 0
+//                            k = 0
+//                }
+//            }
+//        }
+//    }
+////    var matrixx = [[Int]]()
+//    var matrixx = Array(repeating: Array(repeating: 0, count: row-1), count: column-3)
+//
+//    print(matrixx)
+////    for item in arr{
+//    var l = 0
+//    for i in 0 ..< column-3{
+//        for j in 0 ... row-2{
+//                matrixx[i][j] = arr[l]
+//                l = l + 1
+//            }
+//        }
+////    }
+////    return arr
+//    print(matrixx)
+////   return matrixx
+//}
+////var image =
+//print(solution(image:[[36,0,18,9],
+//                      [27,54,9,0],
+//                      [81,63,72,45]])
+//)
 
-    
+
 
 
 
